@@ -58,4 +58,3 @@ export class createOrphanages1602626226136 implements MigrationInterface {
     await queryRunner.dropTable('orphanages');
   }
 }
- 
