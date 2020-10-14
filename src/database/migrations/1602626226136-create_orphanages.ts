@@ -57,4 +57,4 @@ export class createOrphanages1602626226136 implements MigrationInterface {
     //DESFAZER O QUE FOI FEITO NO METODO UP
     await queryRunner.dropTable('orphanages');
   }
-}
+} 
