@@ -1,4 +1,5 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
+import { boolean } from "yup";
 
 export class createOrphanages1602626226136 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
@@ -45,7 +46,7 @@ export class createOrphanages1602626226136 implements MigrationInterface {
         },
         {
           name:'open_on_weekends',
-          type:'boolean',
+          type: 'boolean',
           default: false,
         },
         
